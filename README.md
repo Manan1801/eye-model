@@ -6,6 +6,27 @@ The project uses facial landmark detection and gaze-region prediction to enable 
 
 ---
 
+# 📸 Screenshots
+
+## 🏠 Application Home Screen
+
+<p align="center">
+  <img width="796" height="1560" alt="image" src="https://github.com/user-attachments/assets/50eaf216-bffc-4312-abc3-d151bb0ad21d" />
+
+</p>
+
+---
+
+## 👀 Gaze Tracking Interface
+
+<p align="center">
+  <img width="512" height="1036" alt="image" src="https://github.com/user-attachments/assets/786681d1-4a09-433a-867e-17c7d8574d86" />
+
+
+</p>
+
+---
+
 # ✨ Features
 
 ✅ Real-time eye gaze tracking  
@@ -15,6 +36,8 @@ The project uses facial landmark detection and gaze-region prediction to enable 
 ✅ Lightweight and efficient pipeline  
 ✅ Flask backend for processing  
 ✅ React Native frontend integration  
+✅ Dataset collection mode  
+✅ Testing and video-based inference modes  
 
 ---
 
@@ -52,6 +75,8 @@ The system consists of three major components:
 The mobile screen is divided into a **9×9 grid** representing different gaze regions.
 
 The user looks at predefined grid positions while the front camera captures video frames.
+
+The collected data is used for supervised gaze prediction.
 
 ---
 
@@ -129,7 +154,7 @@ making it suitable for real-time gaze estimation systems.
 - Transformer-based gaze estimation
 - Improved iris tracking
 - On-device AI inference
-- Liveness-aware interaction systems
+- Accessibility-focused interaction systems
 
 ---
 
@@ -177,6 +202,7 @@ eye-model/
 ├── models/
 ├── utils/
 ├── dataset/
+├── screenshots/
 ├── app.py
 ├── requirements.txt
 └── README.md
@@ -187,7 +213,7 @@ eye-model/
 # 👨‍💻 Authors
 
 - Manan Chavda
-- Team Members
+- Lakshya Kesarwani
 
 ---
 
